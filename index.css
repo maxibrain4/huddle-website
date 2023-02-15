@@ -22,8 +22,7 @@
   text-decoration: none;
   font-size: 18px;
   padding: 12px 24px;
-  /* background-color: #fff; */
-  background-color: red;
+  background-color: #fff;
   color: hsl(192, 100%, 9%);
   border-radius: 30px;
 }
@@ -38,6 +37,9 @@
   border-radius: 30px;
   color: #fff;
 }
+.logo {
+  height: 27px;
+}
 .heading-primary {
   font-size: 48px;
   font-weight: 600;
@@ -45,17 +47,21 @@
   margin-bottom: 30px;
   font-family: "Poppins", sans-serif;
 }
+.background-image {
+  background-image: url("/images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+}
 /*******************************/
 /*HER0 SECTION*/
 /*******************************/
 .section-hero {
-  margin-top: 96px;
   font-family: "Open Sans", sans-serif;
+  padding: 48px 0 96px 0;
 }
 .hero {
   max-width: 1440px;
   display: grid;
-  grid-template-columns: 41fr 59fr;
+  grid-template-columns: 45fr 55fr;
   align-items: center;
   margin: 0 auto;
   padding: 0 30px;
@@ -69,4 +75,54 @@
   line-height: 1.5;
   font-weight: 400;
   margin-bottom: 40px;
+}
+/*******************************/
+/*HOW TO SECTION*/
+/*******************************/
+.section-how-to {
+  padding: 9.6rem 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.grid {
+  display: grid;
+  column-gap: 97px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px 20px 30px 20px;
+  margin-bottom: 65px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  place-items: center;
+}
+
+.heading-tertiary {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.how-description {
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(208, 11%, 55%);
+}
+
+.how-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how-img {
+  width: 80%;
+}
+/*******************************/
+/*CTA SECTION*/
+/*******************************/
+.CTA {
+  padding: 9.6rem 0;
 }
