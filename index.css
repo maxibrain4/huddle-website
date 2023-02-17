@@ -123,6 +123,80 @@
 /*******************************/
 /*CTA SECTION*/
 /*******************************/
-.CTA {
-  padding: 9.6rem 0;
+.section-CTA {
+  padding: 50px 0 0 0;
+  position: absolute;
+  top: 100%;
+  right: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.CTA-container {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+}
+
+.cta-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+/*******************************/
+/*FOOTER SECTION*/
+/*******************************/
+main {
+  position: relative;
+}
+.section-footer {
+}
+.container-footer {
+  background-color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding: 200px 30px 90px 10px;
+}
+.nav-col {
+}
+.footer-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2fr 0.7fr 0.7fr 1.5fr;
+  place-items: center;
+}
+.logofooter-img {
+  padding-bottom: 20px;
+}
+.address-body {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.social-icon {
+  height: 24px;
+  width: 24px;
+  fill: #fff;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.social-section {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
 }
